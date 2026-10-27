@@ -1,0 +1,1287 @@
+{
+  "tiempos_quirurgicos": [
+    {
+      "id": 1,
+      "nombre": "Diéresis",
+      "orden_sugerido_mesa": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Hemostasia",
+      "orden_sugerido_mesa": 2
+    },
+    {
+      "id": 3,
+      "nombre": "Prensión/Tracción",
+      "orden_sugerido_mesa": 3
+    },
+    {
+      "id": 4,
+      "nombre": "Separación",
+      "orden_sugerido_mesa": 4
+    },
+    {
+      "id": 5,
+      "nombre": "Síntesis",
+      "orden_sugerido_mesa": 5
+    }
+  ],
+  "procedimientos": [
+    {
+      "id": 1,
+      "nombre": "Laparotomía Exploradora",
+      "descripcion": "Apertura quirúrgica de la cavidad abdominal."
+    },
+    {
+      "id": 2,
+      "nombre": "Apendicectomía Abierta",
+      "descripcion": "Extirpación quirúrgica del apéndice."
+    },
+    {
+      "id": 3,
+      "nombre": "Colecistectomía Abierta",
+      "descripcion": "Extracción de la vesícula biliar."
+    },
+    {
+      "id": 4,
+      "nombre": "Cesárea",
+      "descripcion": "Intervención quirúrgica para extraer el feto."
+    },
+    {
+      "id": 5,
+      "nombre": "Hernioplastia",
+      "descripcion": "Reparación de una hernia."
+    },
+    {
+      "nombre": "Traqueostomía (Percutánea y Abierta)",
+      "descripcion": "Procedimiento para asegurar la vía aérea.",
+      "id": 6,
+      "instrumentos_ids": [
+        1,
+        121,
+        122,
+        81,
+        79
+      ]
+    },
+    {
+      "nombre": "Colecistectomía Laparoscópica",
+      "descripcion": "Ablación de la vesícula biliar.",
+      "id": 7,
+      "instrumentos_ids": [
+        65,
+        87,
+        107
+      ]
+    },
+    {
+      "nombre": "Cesárea (Incisión de Pfannenstiel)",
+      "descripcion": "Extracción fetal por vía abdominal.",
+      "id": 8,
+      "instrumentos_ids": [
+        2,
+        25,
+        17,
+        19,
+        35,
+        31,
+        90
+      ]
+    },
+    {
+      "nombre": "Hernioplastia Inguinal Laparoscópica (TAPP)",
+      "descripcion": "Reparación preperitoneal transabdominal de hernia.",
+      "id": 9,
+      "instrumentos_ids": [
+        110,
+        109,
+        86,
+        108
+      ]
+    },
+    {
+      "nombre": "Gastrectomía (Billroth I y II)",
+      "descripcion": "Resección gástrica parcial con anastomosis gastroduodenal o gastroyeyunal.",
+      "id": 10,
+      "instrumentos_ids": [
+        114,
+        113,
+        112,
+        19
+      ]
+    },
+    {
+      "nombre": "Safenectomía",
+      "descripcion": "Extirpación de la vena safena en extremidades inferiores.",
+      "id": 11,
+      "instrumentos_ids": [
+        82,
+        39,
+        13
+      ]
+    },
+    {
+      "nombre": "Trasplante Hepático",
+      "descripcion": "Implante de injerto hepático con anastomosis venosas y arteriales.",
+      "id": 12,
+      "instrumentos_ids": [
+        20,
+        7
+      ]
+    },
+    {
+      "id": 13,
+      "nombre": "Traqueostomía (Quirúrgica Avanzada)",
+      "descripcion": "Creación de un estoma traqueal para asegurar la vía aérea.",
+      "variantes_anatomicas": "Alta (2do anillo), Media/Transístmica (3er y 4to anillo), e Inferior/Baja (5to o 6to anillo).",
+      "clasificacion": "Urgencia (obstrucciones, edemas, traumatismos) y Electiva (preventiva, comas, neurocirugías).",
+      "posicionamiento_clinico": "Decúbito dorsal con cuello en hiperextensión, empleando un rodillo bajo los hombros.",
+      "secuencia_operatoria": [
+        {
+          "fase": "Diéresis",
+          "descripcion": "Incisión en la línea media centrada en el triángulo de seguridad de Jackson."
+        },
+        {
+          "fase": "Separación y Hemostasia",
+          "descripcion": "Separación de las fibras del músculo cutáneo, ligadura/electrocoagulación de venas transversales y localización de la línea media albicans."
+        },
+        {
+          "fase": "Apertura Traqueal",
+          "descripcion": "Incisión lineal (pediátrica) o resección en ventana de cartílago de 4 mm2 (adultos). El aire debe ingresar gradualmente para prevenir depresión del núcleo respiratorio."
+        },
+        {
+          "fase": "Cierre y Fijación",
+          "descripcion": "Inserción de la cánula (evitando sprays anestésicos para preservar el reflejo tusígeno), verificación de permeabilidad (signo de la bandera) y fijación firme con cintas de hiladillo al cuello."
+        }
+      ],
+      "insumos_adicionales": "Jeringuillas con agujas G 23 para anestesia local (procaína/xilocaína al 1%), Torundas, compresas y cintas de hiladillo.",
+      "instrumentos_ids": [
+        1,
+        2,
+        3,
+        4,
+        11,
+        12,
+        57,
+        31,
+        78,
+        81,
+        66,
+        70
+      ]
+    }
+  ],
+  "instrumentos": [
+    {
+      "id": 1,
+      "nombre": "Bisturí Mango N° 3",
+      "descripcion": "Utilizado para incisiones finas. Se acopla con hojas 10, 11, 12 y 15.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Bisturi+3",
+      "tiempo_quirurgico_id": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Bisturí Mango N° 4",
+      "descripcion": "Utilizado para incisiones grandes. Se acopla con hojas 20 a 24.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Bisturi+4",
+      "tiempo_quirurgico_id": 1
+    },
+    {
+      "id": 3,
+      "nombre": "Tijera Metzenbaum Curva",
+      "descripcion": "Diseñada para corte de tejidos finos y delicados.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Metzenbaum",
+      "tiempo_quirurgico_id": 1
+    },
+    {
+      "id": 4,
+      "nombre": "Tijera Mayo Recta",
+      "descripcion": "Para cortar suturas y materiales (hilos, gasas).",
+      "imagen_url": "https://placehold.co/150x150/png?text=Mayo+Recta",
+      "tiempo_quirurgico_id": 1
+    },
+    {
+      "id": 5,
+      "nombre": "Tijera Mayo Curva",
+      "descripcion": "Utilizada para seccionar tejidos duros o fascias.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Mayo+Curva",
+      "tiempo_quirurgico_id": 1
+    },
+    {
+      "id": 6,
+      "nombre": "Tijera de Iris",
+      "descripcion": "Tijera pequeña y delicada para trabajos oftalmológicos o muy finos.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Tijera+Iris",
+      "tiempo_quirurgico_id": 1
+    },
+    {
+      "id": 7,
+      "nombre": "Tijera Potts-Smith",
+      "descripcion": "Tijera vascular con ángulo, útil en incisiones de vasos.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Potts-Smith",
+      "tiempo_quirurgico_id": 1
+    },
+    {
+      "id": 8,
+      "nombre": "Costótomo",
+      "descripcion": "Instrumento pesado para el corte de costillas.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Costotomo",
+      "tiempo_quirurgico_id": 1
+    },
+    {
+      "id": 9,
+      "nombre": "Sierra de Gigli",
+      "descripcion": "Sierra de alambre flexible usada para cortes de hueso.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Sierra+Gigli",
+      "tiempo_quirurgico_id": 1
+    },
+    {
+      "id": 10,
+      "nombre": "Gubia",
+      "descripcion": "Instrumento en forma de cucharilla con bordes cortantes para hueso.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Gubia",
+      "tiempo_quirurgico_id": 1
+    },
+    {
+      "id": 11,
+      "nombre": "Pinza Kelly Recta",
+      "descripcion": "Pinza hemostática estándar para vasos medianos.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Kelly+Recta",
+      "tiempo_quirurgico_id": 2
+    },
+    {
+      "id": 12,
+      "nombre": "Pinza Kelly Curva",
+      "descripcion": "Pinza hemostática curva para mejor alcance en vasos medianos.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Kelly+Curva",
+      "tiempo_quirurgico_id": 2
+    },
+    {
+      "id": 13,
+      "nombre": "Pinza Halsted (Mosquito)",
+      "descripcion": "Pinza pequeña para vasos finos y delicados.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Mosquito",
+      "tiempo_quirurgico_id": 2
+    },
+    {
+      "id": 14,
+      "nombre": "Pinza Crile Recta",
+      "descripcion": "Similar a la Kelly pero con estrías hasta la base de la mandíbula.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Crile+Recta",
+      "tiempo_quirurgico_id": 2
+    },
+    {
+      "id": 15,
+      "nombre": "Pinza Crile Curva",
+      "descripcion": "Para hemostasia en zonas un poco más profundas.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Crile+Curva",
+      "tiempo_quirurgico_id": 2
+    },
+    {
+      "id": 16,
+      "nombre": "Pinza Kocher Recta",
+      "descripcion": "Con dientes de ratón en la punta para atrapar tejido duro o pinzar fuerte.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Kocher+Recta",
+      "tiempo_quirurgico_id": 2
+    },
+    {
+      "id": 17,
+      "nombre": "Pinza Rochester-Pean",
+      "descripcion": "Pinza grande y robusta para atrapar pedículos vasculares o tejido grueso.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Pean",
+      "tiempo_quirurgico_id": 2
+    },
+    {
+      "id": 18,
+      "nombre": "Pinza Mixter (Ángulo Recto)",
+      "descripcion": "Pinza angulada especial para disecar o pasar hilos alrededor de vasos.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Mixter",
+      "tiempo_quirurgico_id": 2
+    },
+    {
+      "id": 19,
+      "nombre": "Clamps Intestinales (Doyen)",
+      "descripcion": "Clamps de mandíbulas largas y suaves para no dañar el intestino.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Doyen",
+      "tiempo_quirurgico_id": 2
+    },
+    {
+      "id": 20,
+      "nombre": "Clamps Vasculares (Satinsky)",
+      "descripcion": "Clamps atraumáticos curvos para cirugía vascular o cardiaca.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Satinsky",
+      "tiempo_quirurgico_id": 2
+    },
+    {
+      "id": 21,
+      "nombre": "Pinza de Disección Sin Dientes",
+      "descripcion": "Atraumática, ideal para asir tejidos blandos o delicados.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Diseccion+Sin",
+      "tiempo_quirurgico_id": 3
+    },
+    {
+      "id": 22,
+      "nombre": "Pinza de Disección Con Dientes",
+      "descripcion": "Posee pequeños dientes en la punta, útil para piel o aponeurosis.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Diseccion+Con",
+      "tiempo_quirurgico_id": 3
+    },
+    {
+      "id": 23,
+      "nombre": "Pinza Adson Sin Dientes",
+      "descripcion": "Pinza fina de ramas anchas para cirugía superficial o plástica.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Adson+Sin",
+      "tiempo_quirurgico_id": 3
+    },
+    {
+      "id": 24,
+      "nombre": "Pinza Adson Con Dientes",
+      "descripcion": "Pinza fina con pequeños dientes, muy usada para cierre de piel.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Adson+Con",
+      "tiempo_quirurgico_id": 3
+    },
+    {
+      "id": 25,
+      "nombre": "Pinza Allis",
+      "descripcion": "Con mandíbulas multi-diente, para tracción sostenida de tejidos como bordes de incisión.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Allis",
+      "tiempo_quirurgico_id": 3
+    },
+    {
+      "id": 26,
+      "nombre": "Pinza Babcock",
+      "descripcion": "Punta fenestrada sin dientes, atraumática para asir intestinos o trompas.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Babcock",
+      "tiempo_quirurgico_id": 3
+    },
+    {
+      "id": 27,
+      "nombre": "Pinza Foerster (Aros)",
+      "descripcion": "Larga, con aros en la punta, usada como pinza porta-torundas o para tracción gentil.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Foerster",
+      "tiempo_quirurgico_id": 3
+    },
+    {
+      "id": 28,
+      "nombre": "Pinza Duval",
+      "descripcion": "De punta triangular estriada, atraumática (pulmón/intestino).",
+      "imagen_url": "https://placehold.co/150x150/png?text=Duval",
+      "tiempo_quirurgico_id": 3
+    },
+    {
+      "id": 29,
+      "nombre": "Pinza Backhaus (Campo)",
+      "descripcion": "Pinza de campo, perforante para asegurar tallas quirúrgicas.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Backhaus",
+      "tiempo_quirurgico_id": 3
+    },
+    {
+      "id": 30,
+      "nombre": "Pinza Jones (Campo)",
+      "descripcion": "Pinza de campo tipo cangrejo (sin cremallera).",
+      "imagen_url": "https://placehold.co/150x150/png?text=Jones",
+      "tiempo_quirurgico_id": 3
+    },
+    {
+      "id": 31,
+      "nombre": "Separador Farabeuf",
+      "descripcion": "Separador manual en forma de C para planos superficiales.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Farabeuf",
+      "tiempo_quirurgico_id": 4
+    },
+    {
+      "id": 32,
+      "nombre": "Separador Richardson",
+      "descripcion": "Mango robusto y pala ancha, para paredes abdominales.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Richardson",
+      "tiempo_quirurgico_id": 4
+    },
+    {
+      "id": 33,
+      "nombre": "Separador Deaver",
+      "descripcion": "En forma de interrogación, protege vísceras en profundidad.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Deaver",
+      "tiempo_quirurgico_id": 4
+    },
+    {
+      "id": 34,
+      "nombre": "Valva Maleable",
+      "descripcion": "Lámina metálica que se dobla para adaptarse a cualquier ángulo en profundidad.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Maleable",
+      "tiempo_quirurgico_id": 4
+    },
+    {
+      "id": 35,
+      "nombre": "Separador Balfour",
+      "descripcion": "Separador autoestático grande para apertura abdominal completa.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Balfour",
+      "tiempo_quirurgico_id": 4
+    },
+    {
+      "id": 36,
+      "nombre": "Separador Gosset",
+      "descripcion": "Autoestático para laparotomía, más sencillo que el Balfour.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Gosset",
+      "tiempo_quirurgico_id": 4
+    },
+    {
+      "id": 37,
+      "nombre": "Separador Finochietto",
+      "descripcion": "Separador torácico robusto operado con manivela.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Finochietto",
+      "tiempo_quirurgico_id": 4
+    },
+    {
+      "id": 38,
+      "nombre": "Separador Volkmann",
+      "descripcion": "Manual con varias garras (dientes) para retraer piel y músculo.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Volkmann",
+      "tiempo_quirurgico_id": 4
+    },
+    {
+      "id": 39,
+      "nombre": "Separador Senn",
+      "descripcion": "Doble extremo, uno con dientes tipo rastrillo y otro liso para cirugía menor.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Senn",
+      "tiempo_quirurgico_id": 4
+    },
+    {
+      "id": 40,
+      "nombre": "Separador Weitlaner",
+      "descripcion": "Autoestático con sistema de cremallera y garras para cirugía superficial.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Weitlaner",
+      "tiempo_quirurgico_id": 4
+    },
+    {
+      "id": 41,
+      "nombre": "Portaagujas Mayo-Hegar",
+      "descripcion": "El más común, robusto para suturas generales, con estrías cruzadas.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Mayo-Hegar",
+      "tiempo_quirurgico_id": 5
+    },
+    {
+      "id": 42,
+      "nombre": "Portaagujas Mathieu",
+      "descripcion": "Portaagujas con resorte trasero, se acciona presionando toda la mano.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Mathieu",
+      "tiempo_quirurgico_id": 5
+    },
+    {
+      "id": 43,
+      "nombre": "Portaagujas Crile-Wood",
+      "descripcion": "Similar al Mayo-Hegar pero más fino y delicado.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Crile-Wood",
+      "tiempo_quirurgico_id": 5
+    },
+    {
+      "id": 44,
+      "nombre": "Portaagujas Ryder",
+      "descripcion": "Con mandíbulas muy estrechas, ideal para suturar en la profundidad o cirugía vascular.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Ryder",
+      "tiempo_quirurgico_id": 5
+    },
+    {
+      "id": 45,
+      "nombre": "Portaagujas Castroviejo",
+      "descripcion": "De precisión, tipo resorte y mandíbulas minúsculas para oftalmología o microcirugía.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Castroviejo",
+      "tiempo_quirurgico_id": 5
+    },
+    {
+      "id": 46,
+      "nombre": "Grapadora Cutánea (Skin Stapler)",
+      "descripcion": "Dispositivo mecánico desechable para aproximar bordes de la piel con grapas.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Grapadora",
+      "tiempo_quirurgico_id": 5
+    },
+    {
+      "id": 47,
+      "nombre": "Quita Grapas (Staple Remover)",
+      "descripcion": "Instrumento tipo pinza diseñado para deformar y extraer las grapas cutáneas.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Quita+Grapas",
+      "tiempo_quirurgico_id": 5
+    },
+    {
+      "id": 48,
+      "nombre": "Aguja de Reverdin",
+      "descripcion": "Aguja curva con mango y ojete móvil, instrumento histórico pero aún usado para sutura gruesa.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Reverdin",
+      "tiempo_quirurgico_id": 5
+    },
+    {
+      "id": 49,
+      "nombre": "Aplicador de Clips Hemostáticos",
+      "descripcion": "Instrumento para aplicar clips de titanio en vasos o conductos (Hemoclip).",
+      "imagen_url": "https://placehold.co/150x150/png?text=Aplicador+Clips",
+      "tiempo_quirurgico_id": 5
+    },
+    {
+      "id": 50,
+      "nombre": "Empujador de Nudos",
+      "descripcion": "Usado en laparoscopia o áreas profundas para asentar el nudo de la sutura.",
+      "imagen_url": "https://placehold.co/150x150/png?text=Empujador",
+      "tiempo_quirurgico_id": 5
+    },
+    {
+      "nombre": "Hojas de Bisturí (N.º 11, 15)",
+      "descripcion": "Hojas desechables para incisiones agudas (N.15 curva pequeña, N.11 punciones).",
+      "tiempo_quirurgico_id": 1,
+      "id": 51,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Tijera de Tenotomía",
+      "descripcion": "Perfil extra fino y delicado con resorte, para incisiones controladas en tendones.",
+      "tiempo_quirurgico_id": 1,
+      "id": 52,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Tijera de Retina",
+      "descripcion": "Instrumental microquirúrgico para cortes críticos cerca del globo ocular.",
+      "tiempo_quirurgico_id": 1,
+      "id": 53,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Tijera de Episiotomía",
+      "descripcion": "Angulada para cortar la zona perineal durante el parto operatorio.",
+      "tiempo_quirurgico_id": 1,
+      "id": 54,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Escoplos y Cinceles",
+      "descripcion": "Usados para tallar, astillar o remodelar el tejido óseo tras ser golpeados por un martillo.",
+      "tiempo_quirurgico_id": 1,
+      "id": 55,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Taladros Quirúrgicos",
+      "descripcion": "Dispositivos motrices con cajas de engranes para perforar orificios óseos.",
+      "tiempo_quirurgico_id": 1,
+      "id": 56,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Electrocauterio (Bisturí Eléctrico)",
+      "descripcion": "Utiliza corriente de alta frecuencia para destruir tejido y coagular vasos.",
+      "tiempo_quirurgico_id": 2,
+      "id": 57,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Dermatomo",
+      "descripcion": "Cuchilla oscilante de precisión para extraer láminas uniformes de piel donante.",
+      "tiempo_quirurgico_id": 1,
+      "id": 58,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Sacabocados (Punch de Biopsia)",
+      "descripcion": "Cilindro afilado que extrae núcleos completos de tejido dérmico.",
+      "tiempo_quirurgico_id": 1,
+      "id": 59,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Cuchillos Especializados",
+      "descripcion": "Incluye queratomas y cuchillos de miringotomía para microcirugías de alta precisión.",
+      "tiempo_quirurgico_id": 1,
+      "id": 60,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Clamps de Bulldog y DeBakey",
+      "descripcion": "Ocluyen grandes arterias y venas temporalmente sin aplastar la íntima endotelial.",
+      "tiempo_quirurgico_id": 2,
+      "id": 61,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Portador de Ligadura",
+      "descripcion": "Guía hilos alrededor de pedículos profundos para atarlos.",
+      "tiempo_quirurgico_id": 2,
+      "id": 62,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Separador Gelpi",
+      "descripcion": "Separador autoestático pequeño para mantener abiertos campos superficiales.",
+      "tiempo_quirurgico_id": 4,
+      "id": 63,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Espéculos",
+      "descripcion": "Herramientas de dilatación para inspeccionar canales y orificios naturales.",
+      "tiempo_quirurgico_id": 4,
+      "id": 64,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Trócares",
+      "descripcion": "Dispositivos punzantes envueltos en una vaina para acceder a cavidades (endoscopia).",
+      "tiempo_quirurgico_id": 1,
+      "id": 65,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Cánula de Yankauer y Tubo de Pool",
+      "descripcion": "Tubos acodados para succión conectada a bombas de vacío.",
+      "tiempo_quirurgico_id": 4,
+      "id": 66,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Histerómetro",
+      "descripcion": "Varilla graduada para explorar y medir la profundidad del útero.",
+      "tiempo_quirurgico_id": 4,
+      "id": 67,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Pinza para hernias",
+      "descripcion": "Manipulación y contención del saco herniario.",
+      "tiempo_quirurgico_id": 3,
+      "id": 68,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Curetas y Cucharillas",
+      "descripcion": "Útiles para el raspado, curetaje óseo y limpieza de detritos celulares.",
+      "tiempo_quirurgico_id": 3,
+      "id": 69,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Suturas Quirúrgicas",
+      "descripcion": "Hilos reabsorbibles o no reabsorbibles para cerrar incisiones.",
+      "tiempo_quirurgico_id": 5,
+      "id": 70,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Clavos Intramedulares y Agujas K",
+      "descripcion": "Material ortopédico para reducción de fracturas y osteosíntesis.",
+      "tiempo_quirurgico_id": 5,
+      "id": 71,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Pinzas Cortadoras de Alambre",
+      "descripcion": "Cizallas fuertes para cortar pines de fijación en ortopedia.",
+      "tiempo_quirurgico_id": 1,
+      "id": 72,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Martillos Ortopédicos",
+      "descripcion": "Usados para golpear escoplos o insertar clavos en hueso.",
+      "tiempo_quirurgico_id": 1,
+      "id": 73,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Almas para Torniquete de Rumel",
+      "descripcion": "Instrumento cardiovascular para oclusión o torniquete temporal.",
+      "tiempo_quirurgico_id": 2,
+      "id": 74,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Separadores de Duramadre",
+      "descripcion": "Delicados separadores neuroquirúrgicos para exponer la corteza cerebral.",
+      "tiempo_quirurgico_id": 4,
+      "id": 75,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Perforadores Craneales",
+      "descripcion": "Taladros manuales o neumáticos para neurocirugía (craneotomía).",
+      "tiempo_quirurgico_id": 1,
+      "id": 76,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Hemostáticas Bipolares",
+      "descripcion": "Pinzas de microcirugía que coagulan el tejido directamente entre sus puntas.",
+      "tiempo_quirurgico_id": 2,
+      "id": 77,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Separador de Trousseau-Laborde",
+      "descripcion": "Separador de tres ramas utilizado específicamente para exponer el tejido laxopretraqueal y la tráquea.",
+      "tiempo_quirurgico_id": 4,
+      "id": 78,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Gancho Traqueal (Erina)",
+      "descripcion": "Instrumento de un solo diente para traccionar y estabilizar los anillos traqueales o el cartílago cricoides.",
+      "tiempo_quirurgico_id": 3,
+      "id": 79,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Cricotomo",
+      "descripcion": "Herramienta punzocortante diseñada para la apertura rápida de la membrana cricotiroidea en urgencias.",
+      "tiempo_quirurgico_id": 1,
+      "id": 80,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Cánulas de Traqueostomía",
+      "descripcion": "Tubos curvos con o sin balón, diseñados para mantener la permeabilidad de la vía aérea.",
+      "tiempo_quirurgico_id": 4,
+      "id": 81,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Safenótomo con oliva",
+      "descripcion": "Cable extractor metálico con una punta roma utilizado para la fleboextracción en sentido retrógrado de la vena safena.",
+      "tiempo_quirurgico_id": 1,
+      "id": 82,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Separador de Kocher",
+      "descripcion": "Separador manual de una sola valva curva para la pared torácica.",
+      "tiempo_quirurgico_id": 4,
+      "id": 83,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Separador de Morse",
+      "descripcion": "Separador autoestático esternal con valvas removibles que previene la fractura del esternón.",
+      "tiempo_quirurgico_id": 4,
+      "id": 84,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Tijera Potts (Vascular)",
+      "descripcion": "Tijera vascular delicada con punta roma y mandíbulas anguladas a 45º, ideal para fístulas arteriovenosas y arteriotomías.",
+      "tiempo_quirurgico_id": 1,
+      "id": 85,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Trocar de Hasson",
+      "descripcion": "Puerto de acceso romo (usualmente de 10-12 mm) para técnica laparoscópica abierta, evita lesiones viscerales.",
+      "tiempo_quirurgico_id": 4,
+      "id": 86,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Disector Maryland",
+      "descripcion": "Pinza laparoscópica curva fenestrada, esencial para la disección fina de tejidos y vasos.",
+      "tiempo_quirurgico_id": 3,
+      "id": 87,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Pinza Grasper (Laparoscópica)",
+      "descripcion": "Pinza de sujeción atraumática para manipular órganos intraabdominales desde los trocares.",
+      "tiempo_quirurgico_id": 3,
+      "id": 88,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Pinza Carmalt (Karmant)",
+      "descripcion": "Pinza hemostática e intestinal robusta con estrías longitudinales para ocluir asas intestinales.",
+      "tiempo_quirurgico_id": 2,
+      "id": 89,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Espátula de Velasco",
+      "descripcion": "Instrumento de valvas lisas y curvas utilizado como cucharilla para asistir la extracción de la cabeza fetal.",
+      "tiempo_quirurgico_id": 4,
+      "id": 90,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Pinza de Disección Rusa",
+      "descripcion": "Pinza de prensión con puntas redondeadas y acanaladas, ideal para aproximar tejidos densos durante el cierre.",
+      "tiempo_quirurgico_id": 5,
+      "id": 91,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Drenaje de Penrose",
+      "descripcion": "Tubo de látex delgado y aplanado que actúa por capilaridad para arrastrar líquidos/aire hacia el exterior.",
+      "tiempo_quirurgico_id": 5,
+      "id": 92,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Drenaje en Teja",
+      "descripcion": "Plástico flexible con múltiples perforaciones y extremo romo, actúa por capilaridad o aspiración en cirugía abdominal.",
+      "tiempo_quirurgico_id": 5,
+      "id": 93,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Drenaje de Kher (Tubo en T)",
+      "descripcion": "Tubo blando en forma de T diseñado específicamente para drenar la vía biliar insertado en el colédoco.",
+      "tiempo_quirurgico_id": 5,
+      "id": 94,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Drenaje tipo Redón",
+      "descripcion": "Sistema activo de tubo multiperforado conectado a un recipiente con vacío pre-generado (presión negativa).",
+      "tiempo_quirurgico_id": 5,
+      "id": 95,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Drenaje tipo Jackson Pratt",
+      "descripcion": "Catéter de silicona de perfil aplastado conectado a una pera de vacío de baja presión.",
+      "tiempo_quirurgico_id": 5,
+      "id": 96,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Drenaje de Saratoga",
+      "descripcion": "Tubo multiperforado de dos luces (aire y aspiración), indicado en grandes heridas infectadas o de alto volumen.",
+      "tiempo_quirurgico_id": 5,
+      "id": 97,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Drenaje de Abramson",
+      "descripcion": "Sistema de tres luces diseñado para la entrada de aire, aspiración e irrigación continua de la zona quirúrgica.",
+      "tiempo_quirurgico_id": 5,
+      "id": 98,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Blefarostato (Castroviejo / Lieberman)",
+      "descripcion": "Instrumento autoestático utilizado para la retracción y exposición continua de los párpados.",
+      "tiempo_quirurgico_id": 4,
+      "id": 99,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Pinza Utrata",
+      "descripcion": "Pinza fina de toma y sostén diseñada específicamente para realizar la capsulorrexis durante la cirugía de catarata.",
+      "tiempo_quirurgico_id": 3,
+      "id": 100,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Chopper Oftálmico",
+      "descripcion": "Instrumento de corte y tracción utilizado para fracturar y manipular el núcleo del cristalino en la facoemulsificación.",
+      "tiempo_quirurgico_id": 1,
+      "id": 101,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Tijera de Westcott",
+      "descripcion": "Tijera de microcirugía con resorte, ideal para la sección fina de la conjuntiva y músculos extraoculares.",
+      "tiempo_quirurgico_id": 1,
+      "id": 102,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Cuchillete Crescent / 15°",
+      "descripcion": "Bisturí de microcirugía utilizado para realizar incisiones principales y accesorias en la córnea y esclera.",
+      "tiempo_quirurgico_id": 1,
+      "id": 103,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Vitreótomo",
+      "descripcion": "Dispositivo de corte y aspiración automatizada utilizado para remover el humor vítreo, sangre y restos fibrosos en cirugías de retina.",
+      "tiempo_quirurgico_id": 1,
+      "id": 104,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Compás de Castroviejo",
+      "descripcion": "Instrumento de medición milimétrica precisa para delimitar incisiones y estructuras oculares.",
+      "tiempo_quirurgico_id": 1,
+      "id": 105,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Aguja de Veress",
+      "descripcion": "Aguja con obturador retráctil utilizada para la creación inicial del neumoperitoneo mediante técnica cerrada.",
+      "tiempo_quirurgico_id": 1,
+      "id": 106,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Bolsa de Extracción (Endobag)",
+      "descripcion": "Dispositivo de poliuretano introducido por trocar para la extracción segura de piezas quirúrgicas sin contaminar la pared abdominal.",
+      "tiempo_quirurgico_id": 3,
+      "id": 107,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Tijera Ultrasónica (Harmonic)",
+      "descripcion": "Instrumento de energía que permite el corte y coagulación simultánea de tejidos mediante vibración ultrasónica.",
+      "tiempo_quirurgico_id": 1,
+      "id": 108,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Aplicadora de Grapas Helicoidales (Tackers)",
+      "descripcion": "Dispositivo laparoscópico utilizado para fijar mallas de polipropileno a los ligamentos y pared abdominal en hernioplastias.",
+      "tiempo_quirurgico_id": 5,
+      "id": 109,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Malla de Polipropileno",
+      "descripcion": "Prótesis sintética irreabsorbible utilizada para el refuerzo del defecto herniario en técnicas TAPP o abiertas.",
+      "tiempo_quirurgico_id": 5,
+      "id": 110,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Engrapadora GIA (Gastrointestinal Anastomosis)",
+      "descripcion": "Dispositivo de sutura mecánica lineal cortante que coloca dos hileras dobles de grapas de titanio y secciona el tejido en medio.",
+      "tiempo_quirurgico_id": 5,
+      "id": 111,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Engrapadora Circular (EEA)",
+      "descripcion": "Dispositivo para realizar anastomosis término-terminales o término-laterales en el tracto digestivo.",
+      "tiempo_quirurgico_id": 5,
+      "id": 112,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Engrapadora Lineal (TA)",
+      "descripcion": "Dispositivo que coloca una línea transversal de grapas para el cierre de muñones intestinales o gástricos sin seccionar el tejido.",
+      "tiempo_quirurgico_id": 5,
+      "id": 113,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Clamp de Payr",
+      "descripcion": "Pinza de aplastamiento fuerte utilizada para la oclusión gástrica o intestinal durante resecciones.",
+      "tiempo_quirurgico_id": 2,
+      "id": 114,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Clavo Centromedular",
+      "descripcion": "Implante metálico introducido en el canal medular de huesos largos para osteosíntesis.",
+      "tiempo_quirurgico_id": 5,
+      "id": 115,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Fijador Externo (tipo Orthofix)",
+      "descripcion": "Sistema de estabilización ósea percutánea utilizado para fracturas complejas o alargamientos.",
+      "tiempo_quirurgico_id": 5,
+      "id": 116,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Pinza Pozzi (Tenáculo)",
+      "descripcion": "Pinza de tracción con un solo diente agudo en cada mandíbula, utilizada para sujetar y traccionar el cuello uterino.",
+      "tiempo_quirurgico_id": 3,
+      "id": 117,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Valva de Doyen / Gosset",
+      "descripcion": "Separador de valva ancha utilizado en cesáreas y laparotomías pélvicas para retraer la vejiga y exponer el segmento uterino.",
+      "tiempo_quirurgico_id": 4,
+      "id": 118,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Gancho de Ovariohisterectomía",
+      "descripcion": "Instrumento para exteriorizar el cuerno uterino y ovario.",
+      "tiempo_quirurgico_id": 3,
+      "id": 119,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Pinza Satinsky",
+      "descripcion": "Clamp vascular atraumático de oclusión parcial, ideal para anastomosis en grandes vasos.",
+      "tiempo_quirurgico_id": 2,
+      "id": 120,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Dilatadores de Ciaglia (Blue Rhino)",
+      "descripcion": "Set de dilatación cónica progresiva o de un solo paso para la inserción percutánea de cánulas de traqueostomía.",
+      "tiempo_quirurgico_id": 1,
+      "id": 121,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    },
+    {
+      "nombre": "Pinza Dilatadora de Griggs",
+      "descripcion": "Fórceps tunelizado especialmente diseñado para dilatar el estoma traqueal guiado por alambre en traqueostomías percutáneas.",
+      "tiempo_quirurgico_id": 1,
+      "id": 122,
+      "imagen_url": "https://placehold.co/150x150/png?text=placeholder.png"
+    }
+  ],
+  "relacion_procedimiento_instrumento": [
+    {
+      "procedimiento_id": 1,
+      "instrumento_id": 2,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 1,
+      "instrumento_id": 11,
+      "cantidad_sugerida": 6
+    },
+    {
+      "procedimiento_id": 1,
+      "instrumento_id": 31,
+      "cantidad_sugerida": 2
+    },
+    {
+      "procedimiento_id": 1,
+      "instrumento_id": 35,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 1,
+      "instrumento_id": 41,
+      "cantidad_sugerida": 2
+    },
+    {
+      "procedimiento_id": 2,
+      "instrumento_id": 1,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 2,
+      "instrumento_id": 13,
+      "cantidad_sugerida": 4
+    },
+    {
+      "procedimiento_id": 2,
+      "instrumento_id": 21,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 2,
+      "instrumento_id": 26,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 2,
+      "instrumento_id": 31,
+      "cantidad_sugerida": 2
+    },
+    {
+      "procedimiento_id": 2,
+      "instrumento_id": 41,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 6,
+      "instrumento_id": 1,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 6,
+      "instrumento_id": 121,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 6,
+      "instrumento_id": 122,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 6,
+      "instrumento_id": 81,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 6,
+      "instrumento_id": 79,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 7,
+      "instrumento_id": 65,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 7,
+      "instrumento_id": 87,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 7,
+      "instrumento_id": 107,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 8,
+      "instrumento_id": 2,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 8,
+      "instrumento_id": 25,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 8,
+      "instrumento_id": 17,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 8,
+      "instrumento_id": 19,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 8,
+      "instrumento_id": 35,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 8,
+      "instrumento_id": 31,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 8,
+      "instrumento_id": 90,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 9,
+      "instrumento_id": 110,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 9,
+      "instrumento_id": 109,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 9,
+      "instrumento_id": 86,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 9,
+      "instrumento_id": 108,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 10,
+      "instrumento_id": 114,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 10,
+      "instrumento_id": 113,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 10,
+      "instrumento_id": 112,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 10,
+      "instrumento_id": 19,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 11,
+      "instrumento_id": 82,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 11,
+      "instrumento_id": 39,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 11,
+      "instrumento_id": 13,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 12,
+      "instrumento_id": 20,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 12,
+      "instrumento_id": 7,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 13,
+      "instrumento_id": 1,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 13,
+      "instrumento_id": 2,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 13,
+      "instrumento_id": 3,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 13,
+      "instrumento_id": 4,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 13,
+      "instrumento_id": 11,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 13,
+      "instrumento_id": 12,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 13,
+      "instrumento_id": 57,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 13,
+      "instrumento_id": 31,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 13,
+      "instrumento_id": 78,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 13,
+      "instrumento_id": 81,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 13,
+      "instrumento_id": 66,
+      "cantidad_sugerida": 1
+    },
+    {
+      "procedimiento_id": 13,
+      "instrumento_id": 70,
+      "cantidad_sugerida": 1
+    }
+  ]
+}

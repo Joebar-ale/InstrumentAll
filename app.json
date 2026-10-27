@@ -1,25 +1,42 @@
 {
   "expo": {
-    "name": "InstrumentAll-temp",
-    "slug": "InstrumentAll-temp",
+    "name": "InstrumentAll",
+    "slug": "InstrumentAll",
+    "scheme": "instrumentall",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.instrumentall.app"
     },
     "android": {
+      "package": "com.instrumentall.app",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
-      },
-      "predictiveBackGestureEnabled": false
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-sqlite",
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-3514161044300854~4575873478",
+          "iosAppId": "ca-app-pub-3514161044300854~0000000000"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "3b718358-6ef0-410c-9ec1-b90e593bcc2e"
+      }
     }
   }
 }
